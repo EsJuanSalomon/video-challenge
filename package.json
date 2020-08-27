@@ -1,0 +1,27 @@
+{
+  "name": "websockets",
+  "version": "1.0.0",
+  "description": "This project allows multiple users interact with a video and share event actions through web socket",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "babel bin/index.js -o index.js && babel bin/videoInteraction.js -o public/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "engines": {
+    "node": "^14.8.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.4",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0"
+  },
+  "author": "Juan Salomon",
+}

@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    background-color: #000;
+    height: 100vh;
+}
+
+.container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+}
+
+video{
+    width: 80vw;
+}
